@@ -12,8 +12,8 @@
 
 <table border="0" width="100%">
   <tr>
-    <td width="25" valign="middle"><img src="./assets/terminal-card.svg" alt="status dashboard" width="100%"/></td>
-    <td width="25%" valign="middle"><img src="./assets/portrait.svg" alt="C S Deepak" width="100%"/></td>
+    <td width="58%" valign="middle"><img src="./assets/terminal-card.svg" alt="status dashboard" width="130%"/></td>
+    <td width="42%" valign="middle"><img src="./assets/portrait.svg" alt="C S Deepak" width="130%"/></td>
   </tr>
 </table>
 
