@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="C S Deepak — deepak.system">
+  <title>C S Deepak — deepak.system</title>
+  <!-- ══ palette: bg #090909 · panel #121212 · accent #42F5FF · text #ededed ══ -->
+  <defs>
+    <linearGradient id="bnAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42F5FF"/>
+      <stop offset="1" stop-color="#8afcff"/>
+    </linearGradient>
+    <pattern id="bnGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161616" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="bnGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#42F5FF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#42F5FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bnClip"><rect width="1200" height="280" rx="18"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,'DejaVu Sans Mono',monospace;}
+    </style>
+  </defs>
+
+  <g clip-path="url(#bnClip)" class="mono">
+    <rect width="1200" height="280" fill="#090909"/>
+    <!-- drifting grid -->
+    <g opacity="0.6">
+      <rect width="1280" height="360" fill="url(#bnGrid)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-40 -40;0 0" dur="14s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <ellipse cx="240" cy="120" rx="360" ry="200" fill="url(#bnGlow)"/>
+
+    <!-- top label -->
+    <text x="64" y="70" class="mono" font-size="14" letter-spacing="6" fill="#6a6a6a">DEEPAK<tspan fill="#42F5FF">.SYSTEM</tspan></text>
+    <circle cx="60" cy="65" r="3.5" fill="#42F5FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- name -->
+    <text x="62" y="146" class="mono" font-weight="700" font-size="62" letter-spacing="1" fill="#ededed">C S Deepak</text>
+
+    <!-- animated underline -->
+    <rect x="64" y="164" height="3" fill="url(#bnAccent)" rx="1.5">
+      <animate attributeName="width" values="0;360;360" keyTimes="0;0.5;1" dur="2.6s" fill="freeze"/>
+    </rect>
+
+    <!-- tagline with typing wipe -->
+    <clipPath id="bnType"><rect x="64" y="188" height="30" width="0">
+      <animate attributeName="width" values="0;0;720;720" keyTimes="0;0.18;0.85;1" dur="4.5s" fill="freeze"/>
+    </rect></clipPath>
+    <g clip-path="url(#bnType)">
+      <text x="64" y="210" class="mono" font-size="19" fill="#a9a9a9">Research-Oriented Software Engineer<tspan fill="#42F5FF">&#160;·&#160;Agentic AI</tspan></text>
+    </g>
+
+    <!-- meta line -->
+    <path d="M64 240 l8 4 l-8 4 z" fill="#42F5FF"/>
+    <text x="80" y="246" class="mono" font-size="13.5" fill="#5f5f5f">PES University&#160;&#160;·&#160;&#160;Bangalore, India&#160;&#160;·&#160;&#160;building memory systems for AI agents</text>
+
+    <!-- right-side minimal node motif -->
+    <g transform="translate(980,140)" stroke="#233" stroke-width="1.2" fill="none">
+      <line x1="0" y1="-70" x2="70" y2="-20"/><line x1="70" y1="-20" x2="40" y2="60"/>
+      <line x1="40" y1="60" x2="-50" y2="40"/><line x1="-50" y1="40" x2="-30" y2="-50"/>
+      <line x1="-30" y1="-50" x2="0" y2="-70"/><line x1="-50" y1="40" x2="70" y2="-20"/>
+    </g>
+    <g transform="translate(980,140)" fill="#090909" stroke="#42F5FF" stroke-width="1.5">
+      <circle cx="0" cy="-70" r="5"><animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="70" cy="-20" r="4.5"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="40" cy="60" r="4.5"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="-50" cy="40" r="4.5"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="-30" cy="-50" r="4"/>
+    </g>
+    <circle r="2.6" fill="#8afcff">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M980,70 L1050,120 L1020,200 L930,180 L950,90 Z"/>
+    </circle>
+
+    <!-- boot cursor -->
+    <rect x="792" y="192" width="11" height="22" fill="#42F5FF">
+      <animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;0.85;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="none" stroke="#1e1e1e"/>
+</svg>

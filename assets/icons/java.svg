@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#42F5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Java">
+  <title>Java</title>
+  <!-- steam -->
+  <path d="M22 6c-2 2 2 4 0 7M28 8c-2 2 2 4 0 6"/>
+  <!-- cup -->
+  <path d="M12 22h22v6a11 11 0 0 1-22 0v-6Z"/>
+  <path d="M34 24h3a3.5 3.5 0 0 1 0 8h-2"/>
+  <path d="M12 40h22"/>
+</svg>

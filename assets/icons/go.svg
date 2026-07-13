@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#42F5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Go">
+  <title>Go</title>
+  <!-- speed lines -->
+  <path d="M4 19h9M2 24h11M5 29h8"/>
+  <!-- gopher head -->
+  <path d="M18 16c8-4 20-4 26 2 3 3 2 9-2 12-6 4-16 4-23 1-4-2-5-7-1-10Z"/>
+  <circle cx="26" cy="24" r="3.2"/><circle cx="36" cy="24" r="3.2"/>
+  <circle cx="26" cy="24" r="1" fill="#42F5FF" stroke="none"/>
+  <circle cx="36" cy="24" r="1" fill="#42F5FF" stroke="none"/>
+  <path d="M29 30h4"/>
+</svg>
