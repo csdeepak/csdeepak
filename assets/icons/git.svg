@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#42F5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Git">
-  <title>Git</title>
-  <path d="M16 8v32"/>
-  <path d="M16 20c0 4 4 4 8 4h4"/>
-  <circle cx="16" cy="10" r="3.5"/>
-  <circle cx="16" cy="38" r="3.5"/>
-  <circle cx="32" cy="24" r="3.5"/>
-</svg>

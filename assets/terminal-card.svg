@@ -46,8 +46,8 @@
     </g>
     <g class="mono" font-size="15">
       <text x="50" y="242"><tspan class="val">ASMOS</tspan>&#160;&#160;&#160;<tspan class="dim">adaptive semantic memory OS</tspan></text>
-      <text x="50" y="270"><tspan class="val">ShortcutScore</tspan>&#160;&#160;&#160;<tspan class="dim">measuring shortcut learning</tspan></text>
-      <text x="50" y="298"><tspan class="val">Docksmith</tspan>&#160;&#160;&#160;<tspan class="dim">a container runtime in Go</tspan></text>
+      <text x="50" y="270"><tspan class="val">Turb-DETR</tspan>&#160;&#160;&#160;<tspan class="dim">underwater debris detector</tspan></text>
+      <text x="50" y="298"><tspan class="val">ShortcutScore</tspan>&#160;&#160;&#160;<tspan class="dim">measuring shortcut learning</tspan></text>
     </g>
 
     <line x1="34" y1="322" x2="686" y2="322" stroke="#1a1a1a"/>

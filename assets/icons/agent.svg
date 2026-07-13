@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#42F5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Agent">
-  <title>Agent</title>
-  <rect x="12" y="16" width="24" height="18" rx="5"/>
-  <path d="M24 16v-5M24 8a2 2 0 1 0 0-.01"/>
-  <circle cx="19" cy="25" r="2" fill="#42F5FF" stroke="none"/>
-  <circle cx="29" cy="25" r="2" fill="#42F5FF" stroke="none"/>
-  <path d="M12 22H8v6h4M36 22h4v6h-4"/>
-</svg>
