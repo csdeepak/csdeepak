@@ -10,12 +10,10 @@
   <img src="./assets/banner.svg" alt="C S Deepak — deepak.system" width="100%"/>
 </div>
 
-<table border="0" width="100%">
-  <tr>
-    <td width="58%" valign="middle"><img src="./assets/terminal-card.svg" alt="status dashboard" width="100%"/></td>
-    <td width="42%" valign="middle"><img src="./assets/portrait.svg" alt="C S Deepak" width="100%"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/terminal-card.svg" alt="status dashboard" width="59%" align="top"/>
+  <img src="./assets/portrait.svg" alt="C S Deepak" width="40%" align="top"/>
+</p>
 
 <br/>
 

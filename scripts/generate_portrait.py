@@ -39,7 +39,7 @@ OUT_SVG    = "assets/portrait.svg"
 OUT_PREV   = "scripts/_portrait_preview.png"
 
 CROP       = (170, 60, 1090, 1015)     # head + shoulders
-GRID_W     = 200                        # working resolution (columns)
+GRID_W     = 244                        # working resolution (columns)
 CELL_PX    = 5.0                        # grid cell -> canvas px
 MARGIN     = 0.11                       # canvas padding around subject (=> ~80% fill)
 
