@@ -90,8 +90,8 @@ to clinically-legible overlays.
 ## &nbsp;`~/stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=csdeepak&show_icons=true&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github&title_color=42F5FF&icon_color=42F5FF&text_color=ededed&bg_color=0d0d0d&border_color=1e1e1e" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csdeepak&layout=compact&langs_count=8&hide_border=false&border_color=1e1e1e&title_color=42F5FF&text_color=ededed&bg_color=0d0d0d" alt="Top languages"/>
+  <img height="165" src="./assets/stats.svg" alt="GitHub stats"/>
+  <img height="165" src="./assets/top-langs.svg" alt="Top languages"/>
   <br/><br/>
   <img src="https://streak-stats.demolab.com?user=csdeepak&hide_border=false&border=1e1e1e&background=0d0d0d&stroke=1e1e1e&ring=42F5FF&fire=42F5FF&currStreakLabel=42F5FF&sideLabels=ededed&currStreakNum=ededed&sideNums=ededed&dates=6a6a6a" alt="Streak"/>
   <br/><br/>

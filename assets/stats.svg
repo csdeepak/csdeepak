@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img" aria-label="C S Deepak — GitHub statistics">
+  <title>C S Deepak — GitHub statistics</title>
+  <!-- ══ palette: bg #0d0d0d · border #1e1e1e · accent #42F5FF · text #ededed ══ -->
+  <defs>
+    <clipPath id="stClip"><rect width="460" height="200" rx="16"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,'DejaVu Sans Mono',monospace;}
+      .lbl{fill:#8a8a8a;}
+      .val{fill:#ededed;font-weight:600;}
+      .ac{fill:#42F5FF;}
+    </style>
+  </defs>
+
+  <g clip-path="url(#stClip)" class="mono">
+    <rect width="460" height="200" fill="#0d0d0d"/>
+
+    <!-- window bar -->
+    <rect width="460" height="40" fill="#121212"/>
+    <circle cx="24" cy="20" r="4.5" fill="#2b2b2b"/>
+    <circle cx="42" cy="20" r="4.5" fill="#2b2b2b"/>
+    <circle cx="60" cy="20" r="4.5" fill="#2b2b2b"/>
+    <text x="230" y="25" text-anchor="middle" font-size="11.5" fill="#5f5f5f">deepak@system: ~/stats</text>
+    <line x1="0" y1="40" x2="460" y2="40" stroke="#1e1e1e"/>
+
+    <!-- heading -->
+    <text x="28" y="72" class="mono ac" font-size="14" font-weight="600">C S Deepak<tspan fill="#5f5f5f">'s GitHub Stats</tspan></text>
+    <line x1="28" y1="82" x2="300" y2="82" stroke="#1a1a1a"/>
+
+    <!-- stat rows -->
+    <g font-size="13">
+      <path d="M28 100 l7 4 l-7 4 z" class="ac"/>
+      <text x="44" y="108" class="mono lbl">Total Stars Earned</text>
+      <text x="300" y="108" class="mono val">—</text>
+
+      <path d="M28 124 l7 4 l-7 4 z" class="ac"/>
+      <text x="44" y="132" class="mono lbl">Total Commits</text>
+      <text x="300" y="132" class="mono val">—</text>
+
+      <path d="M28 148 l7 4 l-7 4 z" class="ac"/>
+      <text x="44" y="156" class="mono lbl">Total PRs</text>
+      <text x="300" y="156" class="mono val">—</text>
+
+      <path d="M28 172 l7 4 l-7 4 z" class="ac"/>
+      <text x="44" y="180" class="mono lbl">Contributed to (last year)</text>
+      <text x="300" y="180" class="mono val">—</text>
+    </g>
+
+    <!-- rank ring -->
+    <g transform="translate(392,128)">
+      <circle r="34" fill="none" stroke="#1e1e1e" stroke-width="6"/>
+      <circle r="34" fill="none" stroke="#42F5FF" stroke-width="6" stroke-linecap="round"
+              stroke-dasharray="213.6" stroke-dashoffset="64" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" from="213.6" to="64" dur="1.4s" fill="freeze"/>
+      </circle>
+      <text x="0" y="-1" text-anchor="middle" class="mono ac" font-size="17" font-weight="700">A+</text>
+      <text x="0" y="14" text-anchor="middle" class="mono" font-size="8" fill="#5f5f5f" letter-spacing="1">RANK</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="459" height="199" rx="16" fill="none" stroke="#1e1e1e"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="C S Deepak — most used languages">
+  <title>C S Deepak — most used languages</title>
+  <!-- ══ palette: bg #0d0d0d · border #1e1e1e · accent #42F5FF · text #ededed ══ -->
+  <defs>
+    <clipPath id="tlClip"><rect width="300" height="200" rx="16"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,'DejaVu Sans Mono',monospace;}
+      .lbl{fill:#ededed;}
+      .pct{fill:#8a8a8a;}
+    </style>
+  </defs>
+
+  <g clip-path="url(#tlClip)" class="mono">
+    <rect width="300" height="200" fill="#0d0d0d"/>
+
+    <!-- window bar -->
+    <rect width="300" height="40" fill="#121212"/>
+    <circle cx="24" cy="20" r="4.5" fill="#2b2b2b"/>
+    <circle cx="42" cy="20" r="4.5" fill="#2b2b2b"/>
+    <circle cx="60" cy="20" r="4.5" fill="#2b2b2b"/>
+    <text x="150" y="25" text-anchor="middle" font-size="11.5" fill="#5f5f5f">deepak@system: ~/langs</text>
+    <line x1="0" y1="40" x2="300" y2="40" stroke="#1e1e1e"/>
+
+    <!-- heading -->
+    <text x="24" y="66" class="mono" font-size="13" font-weight="600" fill="#42F5FF">Most Used Languages</text>
+
+    <!-- language bars -->
+    <g font-size="11">
+      <!-- Python -->
+      <text x="24" y="90" class="mono lbl">Python</text>
+      <text x="276" y="90" text-anchor="end" class="mono pct">42%</text>
+      <rect x="24" y="96" width="252" height="6" rx="3" fill="#161616"/>
+      <rect x="24" y="96" width="0" height="6" rx="3" fill="#42F5FF">
+        <animate attributeName="width" from="0" to="106" dur="1.1s" fill="freeze"/>
+      </rect>
+
+      <!-- C -->
+      <text x="24" y="120" class="mono lbl">C</text>
+      <text x="276" y="120" text-anchor="end" class="mono pct">21%</text>
+      <rect x="24" y="126" width="252" height="6" rx="3" fill="#161616"/>
+      <rect x="24" y="126" width="0" height="6" rx="3" fill="#5ad7e0">
+        <animate attributeName="width" from="0" to="53" dur="1.1s" fill="freeze"/>
+      </rect>
+
+      <!-- Go -->
+      <text x="24" y="150" class="mono lbl">Go</text>
+      <text x="276" y="150" text-anchor="end" class="mono pct">18%</text>
+      <rect x="24" y="156" width="252" height="6" rx="3" fill="#161616"/>
+      <rect x="24" y="156" width="0" height="6" rx="3" fill="#7fe3ea">
+        <animate attributeName="width" from="0" to="45" dur="1.1s" fill="freeze"/>
+      </rect>
+
+      <!-- JavaScript -->
+      <text x="24" y="180" class="mono lbl">JavaScript</text>
+      <text x="276" y="180" text-anchor="end" class="mono pct">11%</text>
+      <rect x="24" y="186" width="252" height="6" rx="3" fill="#161616"/>
+      <rect x="24" y="186" width="0" height="6" rx="3" fill="#a7eef2">
+        <animate attributeName="width" from="0" to="28" dur="1.1s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="299" height="199" rx="16" fill="none" stroke="#1e1e1e"/>
+</svg>
